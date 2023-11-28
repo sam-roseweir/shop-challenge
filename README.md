@@ -7,7 +7,7 @@ npm start
 
 customer role\
 username: customer\
-password: password\
+password: password
 
 admin role\
 username: admin\
