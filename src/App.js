@@ -3,8 +3,21 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import AdminLayout from './routes/admin/AdminLayout';
 import AdminProducts, { loader as adminProductsLoader } from './routes/admin/Products';
 import AdminProductEdit, { loader as adminProductEditLoader, action as editProductAction } from './routes/admin/ProductEdit';
+import FrontendLayout from './routes/FrontendLayout';
+import Products, { loader as productsLoader } from './routes/Products';
 
 const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <FrontendLayout />,
+    children: [
+      {
+        path: '',
+        element: <Products />,
+        loader: productsLoader
+      }
+    ]
+  },
   {
     path: '/admin',
     element: <AdminLayout />,
