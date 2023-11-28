@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "sku": "MARG001",
+      "name": "Margherita Pizza",
+      "description": "Classic Margherita pizza with tomato, mozzarella, and fresh basil.",
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "sku": "PEPP002",
+      "name": "Pepperoni Pizza",
+      "description": "Delicious pepperoni pizza with tomato sauce, mozzarella, and pepperoni slices.",
+      "price": 14.99
+    },
+    {
+      "id": 3,
+      "sku": "VEGG003",
+      "name": "Vegetarian Pizza",
+      "description": "A delightful vegetarian pizza loaded with assorted fresh vegetables and cheese.",
+      "price": 16.99
+    },
+    {
+      "id": 4,
+      "sku": "BBQCHICK004",
+      "name": "BBQ Chicken Pizza",
+      "description": "Tasty BBQ chicken pizza featuring barbecue sauce, chicken, red onions, and cheese.",
+      "price": 18.99
+    },
+    {
+      "id": 5,
+      "sku": "HAWAIIAN005",
+      "name": "Hawaiian Pizza",
+      "description": "Classic Hawaiian pizza with ham, pineapple, tomato sauce, and mozzarella.",
+      "price": 19.99
+    },
+    {
+      "id": 6,
+      "sku": "MEATLOVERS006",
+      "name": "Meat Lovers Pizza",
+      "description": "A carnivore's delight! Loaded with a variety of meats, tomato sauce, and cheese.",
+      "price": 21.99
+    },
+    {
+      "id": 7,
+      "sku": "SPINACHFETA007",
+      "name": "Spinach and Feta Pizza",
+      "description": "Healthy and delicious pizza with spinach, feta cheese, tomato sauce, and olives.",
+      "price": 17.99
+    },
+    {
+      "id": 8,
+      "sku": "BUFFALOCHICKEN008",
+      "name": "Buffalo Chicken Pizza",
+      "description": "Spicy buffalo chicken pizza with buffalo sauce, chicken, and blue cheese.",
+      "price": 20.99
+    },
+    {
+      "id": 9,
+      "sku": "MEXICAN009",
+      "name": "Mexican Fiesta Pizza",
+      "description": "A fiesta of flavors with spicy Mexican toppings, tomato sauce, and melted cheese.",
+      "price": 22.99
+    },
+    {
+      "id": 10,
+      "sku": "SUPREME010",
+      "name": "Supreme Pizza",
+      "description": "The ultimate pizza experience with a combination of various toppings and cheese.",
+      "price": 24.99
+    }
+]
+  
