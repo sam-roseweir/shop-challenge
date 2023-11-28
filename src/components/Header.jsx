@@ -12,7 +12,7 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto" variant="underline">
                             <Nav.Link href="/">Products</Nav.Link>
-                            <Nav.Link href="#">Checkout</Nav.Link>
+                            <Nav.Link href="/checkout">Checkout</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

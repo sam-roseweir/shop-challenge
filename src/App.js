@@ -5,6 +5,9 @@ import AdminProducts, { loader as adminProductsLoader } from './routes/admin/Pro
 import AdminProductEdit, { loader as adminProductEditLoader, action as editProductAction } from './routes/admin/ProductEdit';
 import FrontendLayout from './routes/FrontendLayout';
 import Products, { loader as productsLoader } from './routes/Products';
+import Checkout, { action as newOrderAction } from './routes/Checkout';
+import AdminOrders, { loader as adminOrdersLoader } from './routes/admin/Orders';
+import AdminOrderView, { loader as adminOrderViewLoader } from './routes/admin/OrderView';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +18,11 @@ const router = createBrowserRouter([
         path: '',
         element: <Products />,
         loader: productsLoader
+      },
+      {
+        path: '/checkout',
+        element: <Checkout />,
+        action: newOrderAction
       }
     ]
   },
@@ -32,6 +40,16 @@ const router = createBrowserRouter([
         element: <AdminProductEdit />,
         loader: adminProductEditLoader,
         action: editProductAction
+      },
+      {
+        path: 'orders',
+        element: <AdminOrders />,
+        loader: adminOrdersLoader
+      },
+      {
+        path: 'orders/view/:orderId',
+        element: <AdminOrderView />,
+        loader: adminOrderViewLoader
       }
     ]
   }

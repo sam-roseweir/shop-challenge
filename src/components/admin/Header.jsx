@@ -7,12 +7,12 @@ function Header() {
         <header className="mb-3">
             <Navbar expand="lg" className="bg-primary" data-bs-theme="dark" sticky="top">
                 <Container>
-                    <Navbar.Brand href="/admin">Sams Pizza - Admin</Navbar.Brand>
+                    <Navbar.Brand href="/admin">Sam's Pizza - Admin</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto" variant="underline">
                             <Nav.Link href="/admin">Products</Nav.Link>
-                            <Nav.Link href="#">Orders</Nav.Link>
+                            <Nav.Link href="/admin/orders">Orders</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "name_first": "Joe",
+      "name_last": "Bloggs",
+      "email": "joe.bloggs@example.com",
+      "cart": [
+        {
+          "productId": 1,
+          "sku": "MARG001",
+          "name": "Margherita Pizza",
+          "price": 12.99
+        },
+        {
+          "productId": 3,
+          "sku": "VEGG003",
+          "name": "Vegetarian Pizza",
+          "price": 16.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name_first": "Alice",
+      "name_last": "Smith",
+      "email": "alice.smith@example.com",
+      "cart": [
+        {
+          "productId": 2,
+          "sku": "PEPP002",
+          "name": "Pepperoni Pizza",
+          "price": 14.99
+        },
+        {
+          "productId": 5,
+          "sku": "HAWAIIAN005",
+          "name": "Hawaiian Pizza",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name_first": "Bob",
+      "name_last": "Johnson",
+      "email": "bob.johnson@example.com",
+      "cart": [
+        {
+          "productId": 6,
+          "sku": "MEATLOVERS006",
+          "name": "Meat Lovers Pizza",
+          "price": 21.99
+        },
+        {
+          "productId": 8,
+          "sku": "BUFFALOCHICKEN008",
+          "name": "Buffalo Chicken Pizza",
+          "price": 20.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name_first": "Emily",
+      "name_last": "Davis",
+      "email": "emily.davis@example.com",
+      "cart": [
+        {
+          "productId": 4,
+          "sku": "BBQCHICK004",
+          "name": "BBQ Chicken Pizza",
+          "price": 18.99
+        },
+        {
+          "productId": 7,
+          "sku": "SPINACHFETA007",
+          "name": "Spinach and Feta Pizza",
+          "price": 17.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name_first": "Charlie",
+      "name_last": "Miller",
+      "email": "charlie.miller@example.com",
+      "cart": [
+        {
+          "productId": 9,
+          "sku": "MEXICAN009",
+          "name": "Mexican Fiesta Pizza",
+          "price": 22.99
+        },
+        {
+          "productId": 10,
+          "sku": "SUPREME010",
+          "name": "Supreme Pizza",
+          "price": 24.99
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name_first": "Eva",
+      "name_last": "Brown",
+      "email": "eva.brown@example.com",
+      "cart": [
+        {
+          "productId": 1,
+          "sku": "MARG001",
+          "name": "Margherita Pizza",
+          "price": 12.99
+        },
+        {
+          "productId": 4,
+          "sku": "BBQCHICK004",
+          "name": "BBQ Chicken Pizza",
+          "price": 18.99
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name_first": "David",
+      "name_last": "Taylor",
+      "email": "david.taylor@example.com",
+      "cart": [
+        {
+          "productId": 3,
+          "sku": "VEGG003",
+          "name": "Vegetarian Pizza",
+          "price": 16.99
+        },
+        {
+          "productId": 6,
+          "sku": "MEATLOVERS006",
+          "name": "Meat Lovers Pizza",
+          "price": 21.99
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name_first": "Grace",
+      "name_last": "White",
+      "email": "grace.white@example.com",
+      "cart": [
+        {
+          "productId": 5,
+          "sku": "HAWAIIAN005",
+          "name": "Hawaiian Pizza",
+          "price": 19.99
+        },
+        {
+          "productId": 8,
+          "sku": "BUFFALOCHICKEN008",
+          "name": "Buffalo Chicken Pizza",
+          "price": 20.99
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name_first": "Frank",
+      "name_last": "Clark",
+      "email": "frank.clark@example.com",
+      "cart": [
+        {
+          "productId": 2,
+          "sku": "PEPP002",
+          "name": "Pepperoni Pizza",
+          "price": 14.99
+        },
+        {
+          "productId": 7,
+          "sku": "SPINACHFETA007",
+          "name": "Spinach and Feta Pizza",
+          "price": 17.99
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name_first": "Hannah",
+      "name_last": "Jones",
+      "email": "hannah.jones@example.com",
+      "cart": [
+        {
+          "productId": 9,
+          "sku": "MEXICAN009",
+          "name": "Mexican Fiesta Pizza",
+          "price": 22.99
+        },
+        {
+          "productId": 10,
+          "sku": "SUPREME010",
+          "name": "Supreme Pizza",
+          "price": 24.99
+        }
+      ]
+    }
+]
+  
