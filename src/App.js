@@ -8,11 +8,19 @@ import Products, { loader as productsLoader } from './routes/Products';
 import Checkout, { action as newOrderAction } from './routes/Checkout';
 import AdminOrders, { loader as adminOrdersLoader } from './routes/admin/Orders';
 import AdminOrderView, { loader as adminOrderViewLoader } from './routes/admin/OrderView';
+import GuestLayout from './routes/GuestLayout';
+import Login, { action as loginAction } from './routes/Login';
+import ProtectedRoute from './components/ProtectedRoute';
+import AdminProtectedRoute from './components/admin/ProtectedRoute';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <FrontendLayout />,
+    element: (
+      <ProtectedRoute>
+        <FrontendLayout />
+      </ProtectedRoute>
+    ),
     children: [
       {
         path: '',
@@ -28,7 +36,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/admin',
-    element: <AdminLayout />,
+    element: (
+      <AdminProtectedRoute>
+        <AdminLayout />
+      </AdminProtectedRoute>
+    ),
     children: [
       {
         path: '',
@@ -50,6 +62,17 @@ const router = createBrowserRouter([
         path: 'orders/view/:orderId',
         element: <AdminOrderView />,
         loader: adminOrderViewLoader
+      }
+    ]
+  },
+  {
+    path: '/auth',
+    element: <GuestLayout />,
+    children: [
+      {
+        path: 'login',
+        element: <Login />,
+        action: loginAction
       }
     ]
   }
