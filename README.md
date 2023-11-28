@@ -3,6 +3,16 @@
 npm install\
 npm start
 
+## Logins
+
+customer role\
+username: customer\
+password: password\
+
+admin role\
+username: admin\
+password: password
+
 ## Available Scripts
 
 In the project directory, you can run:
